@@ -1,0 +1,41 @@
+.donation-visualizer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+#mouth-container img {
+    max-width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+#mouth-container img:hover {
+    transform: scale(1.05);
+}
+
+.progress-bar-background {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progress-bar-fill {
+    height: 25px;
+    background-color: #28a745; /* Verde Esperança */
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}

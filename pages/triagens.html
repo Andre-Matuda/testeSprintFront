@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="triage-options">
+    <h2>Como você prefere ser atendido?</h2>
+    <p>Escolha uma das opções abaixo. Ouça o áudio para entender cada uma.</p>
+    
+    <div class="option-card">
+        <i class="icon-site"></i>
+        <h3>Pelo Site</h3>
+        <p>Preencha um formulário rápido agora mesmo.</p>
+        <a href="/formulario-triagem">Acessar Formulário</a>
+        <button class="audio-guide" onclick="document.getElementById('audio-site').play()">🔊 Ouvir</button>
+        <audio id="audio-site" src="audio/opcao-site.mp3"></audio>
+    </div>
+
+    <div class="option-card">
+        <i class="icon-whatsapp"></i>
+        <h3>Pelo WhatsApp</h3>
+        <p>Mande uma mensagem para nossa equipe.</p>
+        <a href="https://wa.me/5511000000000" target="_blank">Iniciar Conversa</a>
+        <button class="audio-guide" onclick="document.getElementById('audio-whats').play()">🔊 Ouvir</button>
+        <audio id="audio-whats" src="audio/opcao-whatsapp.mp3"></audio>
+    </div>
+
+    <div class="option-card">
+        <i class="icon-email"></i>
+        <h3>Por E-mail</h3>
+        <p>Envie um e-mail com suas informações.</p>
+        <a href="mailto:contato@seusite.com">Enviar E-mail</a>
+        <button class="audio-guide" onclick="document.getElementById('audio-email').play()">🔊 Ouvir</button>
+        <audio id="audio-email" src="audio/opcao-email.mp3"></audio>
+    </div>
+</div>
+</body>
+</html>
